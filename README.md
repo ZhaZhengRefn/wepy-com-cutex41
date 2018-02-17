@@ -1,11 +1,11 @@
-# wepy-com-cutex1
+# wepy-com-cutex41
 微信小程序适配iPhoneX组件
 
 ## 用法
 
 ```html
 <script>
-import Ipx from 'wepy-com-cutex1'
+import Ipx from 'wepy-com-cutex41'
 import wepy from 'wepy'
 export default class Home extends wepy.page {
     components = {
