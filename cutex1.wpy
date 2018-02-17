@@ -1,0 +1,24 @@
+<template>
+    <view class="common--components--ipx">
+        <slot name="content">
+        </slot>
+    </view>
+</template>
+
+<script>
+import wepy from 'wepy'
+
+export default class Ipx extends wepy.component {
+    
+}
+</script>
+
+<style lang="scss" scoped>
+.common--components--ipx{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 68rpx;
+    background-color: transparent;
+}
+</style>
